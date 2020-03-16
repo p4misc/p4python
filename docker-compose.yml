@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  p4python:
+    build: .
+    image: p4python
+    container_name: p4python
